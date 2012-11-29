@@ -39,6 +39,7 @@ namespace log4cxx
             class PatternToken;
         }
 
+		  LOG4CXX_LIST_DEF(PatternTokenList, log4cxx::helpers::SimpleDateFormatImpl::PatternToken*);
           /**
            * Concrete class for formatting and parsing dates in a
            * locale-sensitive manner.
@@ -75,7 +76,6 @@ namespace log4cxx
                   /**
                    * List of tokens.
                    */
-                  LOG4CXX_LIST_DEF(PatternTokenList, log4cxx::helpers::SimpleDateFormatImpl::PatternToken*);
 
                   PatternTokenList pattern;
                   
