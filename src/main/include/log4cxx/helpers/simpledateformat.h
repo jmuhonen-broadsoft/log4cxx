@@ -76,7 +76,6 @@ namespace log4cxx
                   /**
                    * List of tokens.
                    */
-
                   PatternTokenList pattern;
                   
                   static void addToken(const logchar spec, const int repeat, const std::locale* locale, PatternTokenList& pattern);
